@@ -1,0 +1,31 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+h1 {
+    margin-top: 20px;
+    color: #333;
+}
+.board{
+    width: 315px; 
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    background-color: white;   
+      border:  solid #333; 
+}
+#restart {
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red
+}

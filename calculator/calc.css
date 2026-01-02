@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+
+}
+.calculator{
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+}
+#display {
+    width: 100%;
+  /* for adding space between nums and calc box    */
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-align: center;
+}
+.buttons{
+    display: grid;
+     grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+/* now for all buttons */
+button{
+    padding: 10px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #ccc;
+}

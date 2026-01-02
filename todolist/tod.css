@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    /* elements stack vertically */
+    flex-direction: column;
+    /* elements center horizontally */
+    align-items: center;
+    /* space from top */
+    margin-top: 50px;
+}
+.container {
+    background-color: white;
+    /* table size */
+    width: 350px;
+    /* space insdie box */
+    padding: 20px;
+    /* rounded corners */
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+}
+.input-box{
+    display: flex;
+    gap: 10px;
+}
+#taski{
+    /* take all rem free spce one means grow and shrink rem space*/
+    flex:1;
+    padding:8px;
+    font-size: 16px;
+}
+#addbtn {
+    padding:  12px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+#tasklist{
+    margin-top: 20px;
+    width: 350px;
+}
+#tasklist li {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
